@@ -119,7 +119,7 @@ function endGame() {
  * And be sure to use the functions declared below!
  */
 function moveDodger() {
-  document.on('keydown',
+  $("#game").on('keydown',
   function (e){
     if (e.which===LEFT_ARROW){
       moveDodgerLeft()}
