@@ -143,9 +143,9 @@ function moveDodgerLeft() {
  */
 function moveDodgerRight() {
   function step(){
-    e.style.left=`${left-4}px`
+    e.style.right=`${right-4}px`
 
-    if (left>0){
+    if (right>0){
     window.requestAnimationFrame(step)}
     }
   window.requestAnimationFrame(step)
