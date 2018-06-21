@@ -142,8 +142,13 @@ function moveDodgerLeft() {
  * (mabye 4 pixels?). Use window.requestAnimationFrame()!
  */
 function moveDodgerRight() {
+  function step(){
+    e.style.left=`${left-4}px`
 
-
+    if (left>0){
+    window.requestAnimationFrame(step)}
+    }
+  window.requestAnimationFrame(step)
 }
 
 /**
