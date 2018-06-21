@@ -127,6 +127,7 @@ function moveDodger(e) {
  * (mabye 4 pixels?). Use window.requestAnimationFrame()!
  */
 function moveDodgerLeft() {
+  var left=parseInt(e.style.left, 10)
   function step(){
     e.style.left=`${left-4}px`
 
