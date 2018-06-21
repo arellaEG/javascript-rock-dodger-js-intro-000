@@ -121,6 +121,11 @@ function moveDodger(e) {
    */
 }
 
+// implement me!
+/**
+ * This function should move DODGER to the left
+ * (mabye 4 pixels?). Use window.requestAnimationFrame()!
+ */
 function moveDodgerLeft() {
   function step(){
     e.style.left=`${left-4}px`
@@ -130,19 +135,15 @@ function moveDodgerLeft() {
     }
   window.requestAnimationFrame(step)
 }
-  // implement me!
-  /**
-   * This function should move DODGER to the left
-   * (mabye 4 pixels?). Use window.requestAnimationFrame()!
-   */
-}
 
+// implement me!
+/**
+ * This function should move DODGER to the right
+ * (mabye 4 pixels?). Use window.requestAnimationFrame()!
+ */
 function moveDodgerRight() {
-  // implement me!
-  /**
-   * This function should move DODGER to the right
-   * (mabye 4 pixels?). Use window.requestAnimationFrame()!
-   */
+
+
 }
 
 /**
