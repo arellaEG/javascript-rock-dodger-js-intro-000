@@ -110,15 +110,22 @@ function createRock(x) {
 function endGame() {
 }
 
+// implement me!
+/**
+ * This function should call `moveDodgerLeft()`
+ * if the left arrow is pressed and `moveDodgerRight()`
+ * if the right arrow is pressed. (Check the constants
+ * we've declared for you above.)
+ * And be sure to use the functions declared below!
+ */
 function moveDodger(e) {
-  // implement me!
-  /**
-   * This function should call `moveDodgerLeft()`
-   * if the left arrow is pressed and `moveDodgerRight()`
-   * if the right arrow is pressed. (Check the constants
-   * we've declared for you above.)
-   * And be sure to use the functions declared below!
-   */
+  document.addEventListener('keypress',
+  function (e){
+    if (e.which===LEFT_ARROW){
+      moveDodgerLeft()
+    }
+})
+
 }
 
 // implement me!
