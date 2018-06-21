@@ -122,11 +122,9 @@ function moveDodger(e) {
   document.addEventListener('keypress',
   function (e){
     if (e.which===LEFT_ARROW){
-      moveDodgerLeft()
+      moveDodgerLeft()}
     else if (e.which===RIGHT_ARROW){
-      moveDodgerRight()
-    }
-    }
+      moveDodgerRight()}
 })
 
 }
