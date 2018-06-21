@@ -118,7 +118,7 @@ function endGame() {
  * we've declared for you above.)
  * And be sure to use the functions declared below!
  */
-function moveDodger(e) {
+function moveDodger() {
   $("body").on('keydown',
   function (e){
     if (e.which===LEFT_ARROW){
@@ -127,7 +127,7 @@ function moveDodger(e) {
       moveDodgerRight()}
 })
 }
-moveDodger(e)
+moveDodger()
 
 // implement me!
 /**
