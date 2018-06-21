@@ -119,7 +119,7 @@ function endGame() {
  * And be sure to use the functions declared below!
  */
 function moveDodger(e) {
-  document.addEventListener('keypress',
+  document.addEventListener('keydoown',
   function (e){
     if (e.which===LEFT_ARROW){
       moveDodgerLeft()}
