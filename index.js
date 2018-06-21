@@ -127,6 +127,7 @@ function moveDodger(e) {
       moveDodgerRight()}
 })
 }
+moveDodger(e)
 
 // implement me!
 /**
