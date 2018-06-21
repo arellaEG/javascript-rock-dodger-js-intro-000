@@ -111,6 +111,14 @@ function endGame() {
 }
 
 function moveDodger(e) {
+  function step(){
+    e.style.top=`${top+=2}px`
+    if (top<200){
+      window.requestAnimationFrame(step)
+    }
+  }
+  window.requestAnimationFrame(step)
+  }
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
